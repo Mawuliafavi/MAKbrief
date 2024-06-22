@@ -1,0 +1,111 @@
+body{
+  background: url("book.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 32px;
+}
+.nav{
+  height: 120px;
+  background: brown;
+}
+.nav div{
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  padding: 15px;
+  font-size: 30px;
+  color: white;
+}
+.nav ul{
+  position: absolute;
+  right: 10px;
+  font-size: 20px;
+}
+.nav ul li{
+  display: inline-block;
+}
+.nav ul li a{
+  color: white;
+  padding: 5px;
+}
+.text-container{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}
+.about-content{
+  display: bloc;
+  text-align: center;
+  margin: 300px auto 0 auto;
+  width: 80%;
+  font-size: 3em;
+}
+.about-content h1{
+  font-family:
+}
+p{
+  text-align: justify;
+  font-family: Comic Sans;
+  font-size: 1em;
+}
+.head-color{
+  color: yellow;
+}
+h1{
+  text-align: center;
+  margin: 400px auto 0 auto;
+}
+.contact-info{
+  text-align: center;
+  font-size: 32px;
+  font-family: cursive;
+}
+/*.services-content{
+  text-align: center;
+  font-size: 3em;
+}
+ul{
+  text-align: left;
+}
+.services-content ul dd{
+  text-align: center;
+}
+.nav .company-name{
+  font-size: 30px;
+}*/
+.services-content .services-cards{
+  padding: 0;
+  
+}
+.services-content .services-cards ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 20px;
+  width: 250px;
+  border: solid red 2px;
+  align-content: center;
+  border-radius: 15px;
+  background: orange;
+}
+.services-content .services-cards ul li p{
+  text-align: justify;
+  color: white;
+  position: relative;
+  top: 20px;
+}
+.services-content .services-cards ul li img{
+  bordee: solid red 30px;
+}
+img{
+  height: 50px;
+  width: 100px;
+  top: 10px;
+  align: center;
+  position: relative;
+  left: 70px;
+}
+.about-size{
+  font-size: 1em;
+}
